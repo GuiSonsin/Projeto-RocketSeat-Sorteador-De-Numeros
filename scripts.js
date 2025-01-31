@@ -1,5 +1,6 @@
 document.querySelector(".sort-form").addEventListener("submit", (e) => {
     e.preventDefault()
+    // execute first the function numberRaffle, after the function showResults
     numberRaffle().then(showResults)
 })
 
